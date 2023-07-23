@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page | Malvin Valerian</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- START NAVBAR SECTION -->
+    <div id="detik-navbar" class="d-flex flex-column fixed-top">
+        <div class="container-fluid px-4 px-lg-5 py-5 d-flex justify-content-center">
+            <div class="detik-nav-subcontainer d-flex justify-content-between">
+                <div class="detik-brand fs-2">
+                    <h1 class="text-white detik-brand-name">team<span class="detik-brand-span text-primary">.</span></h1>
+                </div>
+                <div class="w-50">
+                    <div class="detik-hamburger-container h-100 d-flex d-lg-none justify-content-end align-items-center">
+                        <svg class="detik-hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4 8C3.45 8 3 7.55 3 7C3 6.45 3.45 6 4 6H20C20.55 6 21 6.45 21 7C21 7.55 20.55 8 20 8H4ZM4 13H20C20.55 13 21 12.55 21 12C21 11.45 20.55 11 20 11H4C3.45 11 3 11.45 3 12C3 12.55 3.45 13 4 13ZM4 18H20C20.55 18 21 17.55 21 17C21 16.45 20.55 16 20 16H4C3.45 16 3 16.45 3 17C3 17.55 3.45 18 4 18Z" fill="#F5F5F5"/>
+                        </svg>
+                    </div>
+                    <ul class="detik-nav-ul w-100 h-100 d-none d-lg-flex justify-content-between align-items-center">
+                        <li class="list-unstyled" role="button">
+                            <a href="#" class="text-decoration-none text-white">Product</a>
+                        </li>
+                        <li class="list-unstyled" role="button">
+                            <a href="#" class="text-decoration-none text-white">Blog</a>
+                        </li>
+                        <li class="list-unstyled" role="button">
+                            <a href="#" class="text-decoration-none text-white">Support</a>
+                        </li>
+                        <li class="list-unstyled" role="button">
+                            <a href="#" class="text-decoration-none text-white">Log In</a>
+                        </li>
+                        <li class="list-unstyled" role="button">
+                            <a href="#" class="text-decoration-none text-white">Get Access</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- START MOBILE NAVBAR SECTION -->
+        <div class="d-none detik-mobile-navbar container-fluid d-flex flex-column d-lg-none p-4">
+            <a href="#" class="detik-mobile-nav-link text-decoration-none text-white">Product</a>
+            <a href="#" class="detik-mobile-nav-link text-decoration-none text-white">Blog</a>
+            <a href="#" class="detik-mobile-nav-link text-decoration-none text-white">Support</a>
+            <a href="#" class="detik-mobile-nav-link text-decoration-none text-white">Login</a>
+            <a href="#" class="detik-mobile-nav-link text-decoration-none text-white">Get Access</a>
+        </div>
+        <!-- END MOBILE NAVBAR SECTION -->
+    </div>
+    <!-- END NAVBAR SECTION -->
+
+    <!-- START HERO SECTION -->
+    <div class="detik-hero-section container-fluid d-flex justify-content-center align-items-center">
+        <div class="detik-hero-container px-0 px-md-3 px-lg-0">
+            <div class="detik-hero-left">
+                <h1 class="text-white">Instant collaboration</h1>
+                <h1 class="text-white">for remote teams</h1>
+                <p class="text-white">All-in-one place for your remote team to chat, collaborate and track project progress.</p>
+                <div class="d-flex flex-column flex-md-row py-3">
+                    <input class="detik-hero-email-input p-3 mb-3 mb-md-0" type="email" placeholder="Email">
+                    <button class="detik-hero-button text-white mx-md-2">Get Early Access</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END HERO SECTION -->
+
+    <!-- START 2nd SECTION -->
+    <div class="detik-second-section-container container-fluid d-flex justify-content-center">
+        <div class="detik-second-section d-flex flex-column-reverse flex-sm-row">
+            <div class="detik-second-section-left d-flex align-items-center">
+                <div class="py-5 px-2 px-md-5 px-lg-0 py-lg-0">
+                    <h1>Chats for your</h1>
+                    <h1>distributed teams</h1>
+                    <p class="pt-3 lh-lg justify">
+                        Team combines the immediacy of real-time chat with an email threading model. With Team, you can catch up on important conversations while ignoring irrelevant ones.
+                    </p>
+                    <a class="py-5" href="#">Learn more <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.1484 13.7549H6.38594C5.69844 13.7549 5.13594 14.3174 5.13594 15.0049C5.13594 15.6924 5.69844 16.2549 6.38594 16.2549H20.1484V18.4924C20.1484 19.0549 20.8234 19.3299 21.2109 18.9299L24.6859 15.4424C24.9234 15.1924 24.9234 14.8049 24.6859 14.5549L21.2109 11.0674C20.8234 10.6674 20.1484 10.9549 20.1484 11.5049V13.7549Z" fill="#5468E7"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="detik-second-section-right d-flex justify-content-end">
+                <img class="second-section-image" src="./img/second-section-img.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- END 2nd SECTION -->
+
+    <!-- START 3rd SECTION -->
+    <div class="detik-third-section-container container-fluid d-flex justify-content-center">
+        <div class="detik-third-section d-flex flex-column-reverse flex-sm-row-reverse">
+            <div class="detik-third-section-left d-flex align-items-center">
+                <div class="py-5 px-2 px-md-5 px-lg-0 py-lg-0">
+                    <h1>Chats for your</h1>
+                    <h1>distributed teams</h1>
+                    <p class="pt-3 lh-lg justify">
+                        Team combines the immediacy of real-time chat with an email threading model. With Team, you can catch up on important conversations while ignoring irrelevant ones.
+                    </p>
+                    <a class="py-5" href="#">Learn more <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.1484 13.7549H6.38594C5.69844 13.7549 5.13594 14.3174 5.13594 15.0049C5.13594 15.6924 5.69844 16.2549 6.38594 16.2549H20.1484V18.4924C20.1484 19.0549 20.8234 19.3299 21.2109 18.9299L24.6859 15.4424C24.9234 15.1924 24.9234 14.8049 24.6859 14.5549L21.2109 11.0674C20.8234 10.6674 20.1484 10.9549 20.1484 11.5049V13.7549Z" fill="#5468E7"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="detik-third-section-right d-flex justify-content-start pr-0 pe-lg-5">
+                <img class="third-section-image rounded-5 shadow-lg" src="./img/third-section-img.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- END 3rd SECTION -->
+
+    <!-- START 4th SECTION -->
+    <div class="detik-fourth-section-container container-fluid d-flex justify-content-center">
+        <div class="detik-fourth-section d-flex flex-column-reverse flex-sm-row">
+            <div class="detik-fourth-section-left d-flex align-items-center">
+                <div class="py-5 px-2 px-md-5 px-lg-0 py-lg-0">
+                    <h1>Choose how you</h1>
+                    <h1>want to work</h1>
+                    <p class="pt-3 lh-lg justify">
+                        In Team, you've got all the flexibility to work when, where and how it's best for you. You can easily chat, send audio and video clips, or hop on a huddle to talk things out live.
+                    </p>
+                    <a class="py-5" href="#">Learn more <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.1484 13.7549H6.38594C5.69844 13.7549 5.13594 14.3174 5.13594 15.0049C5.13594 15.6924 5.69844 16.2549 6.38594 16.2549H20.1484V18.4924C20.1484 19.0549 20.8234 19.3299 21.2109 18.9299L24.6859 15.4424C24.9234 15.1924 24.9234 14.8049 24.6859 14.5549L21.2109 11.0674C20.8234 10.6674 20.1484 10.9549 20.1484 11.5049V13.7549Z" fill="#5468E7"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="detik-fourth-section-right d-flex justify-content-end">
+                <img class="fourth-section-image rounded-5 shadow-lg" src="./img/fourth-section-img.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- END 4th SECTION -->
+
+    <!-- START 5th SECTION -->
+    <div class="detik-fifth-section-container container-fluid d-flex justify-content-center">
+        <div class="detik-fifth-section d-flex flex-column-reverse flex-sm-row-reverse">
+            <div class="detik-fifth-section-left d-flex align-items-center">
+                <div class="py-5 px-2 px-md-5 px-lg-0 py-lg-0">
+                    <h1>Move faster with</h1>
+                    <h1> your team tools</h1>
+                    <p class="pt-3 lh-lg justify">
+                        With your other work apps connected to Team, you can work faster by switching tabs less. And with powerful tools like Workflow Builder, you can automate away routine tasks.
+                    </p>
+                    <a class="py-5" href="#">Learn more <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.1484 13.7549H6.38594C5.69844 13.7549 5.13594 14.3174 5.13594 15.0049C5.13594 15.6924 5.69844 16.2549 6.38594 16.2549H20.1484V18.4924C20.1484 19.0549 20.8234 19.3299 21.2109 18.9299L24.6859 15.4424C24.9234 15.1924 24.9234 14.8049 24.6859 14.5549L21.2109 11.0674C20.8234 10.6674 20.1484 10.9549 20.1484 11.5049V13.7549Z" fill="#5468E7"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="detik-fifth-section-right d-flex justify-content-start pr-0 pe-lg-5">
+                <img class="fifth-section-image rounded-5 shadow-lg" src="./img/fifth-section-img.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- END 5th SECTION -->
+
+    <!-- START WHAT PEOPLE SAY SECTION -->
+    <div class="what-people-say-section-container d-flex justify-content-center container-fluid">
+        <div class="what-people-say-section">
+            <h1 class="text-black text-center mb-5">What people say about Team</h1>
+
+            <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner" role="listbox">
+
+					<div class="carousel-item active">
+						<div class="col-md-3">
+							<div class="card p-4 m-2 border-0 shadow-sm">
+                                <div class="w-50">
+                                    <img src="./img/rating.png" alt="">
+                                </div>
+                                <div class="py-3">
+                                    <p>Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus blandit pretium sed non enim. Maecenas lacinia non orci at aliquam. Donec finibus, urna bibendum ultricies laoreet.</p>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="w-25">
+                                        <img src="./img/avatar-1.png" alt="">
+                                    </div>
+                                    <div class="d-flex flex-column ms-3 md:ms-0">
+                                        <h5>Chealsea Morgan</h5>
+                                        <small class="opacity-50">CEO of Subway</small>
+                                    </div>
+                                </div>
+							</div>
+						</div>
+					</div>
+
+					<div class="carousel-item">
+						<div class="col-md-3">
+							<div class="card p-4 m-2 border-0 shadow-sm">
+                                <div class="w-50">
+                                    <img src="./img/rating.png" alt="">
+                                </div>
+                                <div class="py-3">
+                                    <p>In a laoreet purus. Integer turpis quam, laoreet id orci nec, ultrices lacinia nunc. Aliquam erat volutpat. Curabitur fringilla in purus eget egestas. Etiam quis.</p>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="w-25">
+                                        <img src="./img/avatar-2.png" alt="">
+                                    </div>
+                                    <div class="d-flex flex-column ms-3 md:ms-0">
+                                        <h5>Nick Cave</h5>
+                                        <small class="opacity-50">CMO ot Nokia</small>
+                                    </div>
+                                </div>
+							</div>
+						</div>
+					</div>
+
+					<div class="carousel-item">
+						<div class="col-md-3">
+							<div class="card p-4 m-2 border-0 shadow-sm">
+                                <div class="w-50">
+                                    <img src="./img/rating.png" alt="">
+                                </div>
+                                <div class="py-3">
+                                    <p>Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Pellentesque vulputate quam a quam volutpat, sed ullamcorper erat commodo.</p>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="w-25">
+                                        <img src="./img/avatar-3.png" alt="">
+                                    </div>
+                                    <div class="d-flex flex-column ms-3 md:ms-0">
+                                        <h5>Lana Rosenfeld</h5>
+                                        <small class="opacity-50">Senior VP ot Pinterest</small>
+                                    </div>
+                                </div>
+							</div>
+						</div>
+					</div>
+
+					<div class="carousel-item">
+						<div class="col-md-3">
+							<div class="card p-4 m-2 border-0 shadow-sm">
+                                <div class="w-50">
+                                    <img src="./img/rating.png" alt="">
+                                </div>
+                                <div class="py-3">
+                                    <p>Porta nisl dolor, molestie pellentesque elit molestie in. Morbi metus neque, elementum ullamcorper hendrerit eget, tincidunt et nisi. Sed magna nunc.</p>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="w-25">
+                                        <img src="./img/avatar-4.png" alt="">
+                                    </div>
+                                    <div class="d-flex flex-column ms-3 md:ms-0">
+                                        <h5>Lana Rosenfeld</h5>
+                                        <small class="opacity-50">CTO ot Glovo</small>
+                                    </div>
+                                </div>
+							</div>
+						</div>
+					</div>
+
+					<div class="carousel-item">
+						<div class="col-md-3">
+							<div class="card p-4 m-2 border-0 shadow-sm">
+                                <div class="w-50">
+                                    <img src="./img/rating.png" alt="">
+                                </div>
+                                <div class="py-3">
+                                    <p>Integer turpis quam, laoreet id orci nec, ultrices lacinia nunc. Aliquam erat volutpat. Curabitur fringilla in purus eget egestas. Etiam quis. In a laoreet purus. Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="w-25">
+                                        <img src="./img/avatar-1.png" alt="">
+                                    </div>
+                                    <div class="d-flex flex-column ms-3 md:ms-0">
+                                        <h5>Malvin Valerian</h5>
+                                        <small class="opacity-50">CTO at SpaceX</small>
+                                    </div>
+                                </div>
+							</div>
+						</div>
+					</div>
+
+					<div class="carousel-item">
+						<div class="col-md-3">
+							<div class="card p-4 m-2 border-0 shadow-sm">
+                                <div class="w-50">
+                                    <img src="./img/rating.png" alt="">
+                                </div>
+                                <div class="py-3">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis ea quasi maiores iusto accusamus temporibus aliquid nam? Alias, est autem.</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <img src="./img/avatar-2.png" alt="">
+                                    </div>
+                                    <div class="d-flex flex-column ms-3 md:ms-0">
+                                        <h5>Delova Rossen</h5>
+                                        <small class="opacity-50">CEO of Nonsense </small>
+                                    </div>
+                                </div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<a class="carousel-control-prev bg-transparent" href="#recipeCarousel" role="button" data-bs-slide="prev">
+					<span class="bg-secondary carousel-control-prev-icon" aria-hidden="true"></span>
+				</a>
+				<a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+					<span class="bg-secondary carousel-control-next-icon" aria-hidden="true"></span>
+				</a>
+			</div>
+        </div>
+    </div>
+    <!-- END WHAT PEOPLE SAY SECTION -->
+
+    <!-- START FOOTER SECTION -->
+    <div class="detik-footer-section-container w-100 d-flex flex-column align-items-center">
+        <div class="detik-footer-section">
+            <div class="detik-footer-top text-white py-5 d-flex flex-column flex-lg-row justify-content-between w-100">
+                <div class="detik-footer-top-1">
+                    <div class="detik-brand fs-2 d-flex flex-column pb-3">
+                        <h1 class="text-white detik-brand-name">team<span class="detik-brand-span text-primary">.</span></h1>
+                    </div>
+                    <div>
+                        <p class="text-white">Collaboration platform <br>for modern team </p>
+                    </div>
+                </div>
+
+                <div class="detik-footer-top-5 d-block d-lg-none">
+                    <div>
+                        <h3 class="detik-soft-blue">Stay up to date </h3>
+                    </div>
+                    <div>
+                        <p>Subscribe to our newsletter</p>
+                    </div>
+                    <div>
+                        <input class="detik-footer-email-input p-3 mb-3 mb-md-0" type="email" placeholder="Email">
+                    </div>
+                </div>
+                
+                <div class="detik-footer-top-2">
+                    <div>
+                        <h3 class="detik-soft-blue">Company</h3>
+                    </div>
+                    <div>
+                        <p><a href="#" class="text-white text-decoration-none">Product</a></p>
+                    </div>
+                    <div>
+                        <p><a href="#" class="text-white text-decoration-none">Blog</a></p>
+                    </div>
+                    <div>
+                        <p><a href="#" class="text-white text-decoration-none">Support</a></p>
+                    </div>
+                </div>
+                <div class="detik-footer-top-3">
+                    <div>
+                        <h3 class="detik-soft-blue">Features</h3>
+                    </div>
+                    <div>
+                        <p><a href="#" class="text-white text-decoration-none">Screen Sharing</a></p>
+                    </div>
+                    <div>
+                        <p><a href="#" class="text-white text-decoration-none">iOS & Android Apps</a></p>
+                    </div>
+                    <div>
+                        <p><a href="#" class="text-white text-decoration-none">File Sharing</a></p>
+                    </div>
+                    <div>
+                        <p><a href="#" class="text-white text-decoration-none">User Management</a></p>
+                    </div>
+                </div>
+                <div class="detik-footer-top-4">
+                    <div>
+                        <h3 class="detik-soft-blue">Contact Us</h3>
+                    </div>
+                    <div>
+                        <p><a href="#" class="text-white text-decoration-none">info@teamapp.com</a></p>
+                    </div>
+                    <div>
+                        <p><a href="#" class="text-white text-decoration-none">1-800-200-300</a></p>
+                    </div>
+                    <div>
+                        <p><a href="#" class="text-white text-decoration-none">1010 Sunset Blv. Palo Alto, California</a></p>
+                    </div>
+                </div>
+                <div class="detik-footer-top-5 d-none d-lg-block">
+                    <div>
+                        <h3 class="detik-soft-blue">Stay up to date </h3>
+                    </div>
+                    <div>
+                        <p>Subscribe to our newsletter</p>
+                    </div>
+                    <div>
+                        <input class="detik-footer-email-input p-3 mb-3 mb-md-0" type="email" placeholder="Email">
+                    </div>
+                </div>
+            </div>
+
+            <div class="detik-footer-bottom text-white py-5">
+                © Copyright Team Inc.
+            </div>
+        </div>
+    </div>
+    <!-- END FOOTER SECTION -->
+</body>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</html>
